@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @JohnAlexCO
 - 👀 I’m interested in music, acoustics, logistics, and automation
 - 🌱 I’m currently learning web development
-- 💞️ I’m looking to collaborate on games, toolkits, and videography
+- 💞️ I’m looking to collaborate on games, toolkits, and web solutions
 - 📫 How to reach me -- me@johnalex.co
 
 <!---
