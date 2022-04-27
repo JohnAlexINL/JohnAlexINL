@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JohnAlexCO
 - 👀 I’m interested in music, acoustics, logistics, and automation
-- 🌱 I'm currently building a programming language
+- 🌱 I'm currently building a programming language named [Garter](https://github.com/topics/garter)
 - 💞️ I’m looking to collaborate on games, toolkits, and web solutions
 - 📫 How to reach me -- me@johnalex.co
 - 🌐 Visit my website, [JohnAlex.CO](https://johnalex.co)
