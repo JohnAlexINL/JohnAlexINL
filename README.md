@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @JohnAlexCO
-- 👀 I’m interested in music, acoustics, logistics, and automation
-- 🌱 I'm currently building a programming language named [Garter](https://github.com/topics/garter)
-- 🧼 I'm also the sole-developer of [OnlySoap.LIVE](https://onlysoap.live)
-- 💞️ I’m looking to collaborate on engines, toolkits, games, and web solutions
+- 👀 Interested in music, acoustics, logistics, and automation
+- 🌱 Building a programming language named [Garter](https://github.com/topics/garter)
+- 🎁 and complimenting it with a version control and package management system called [gib](https://github.com/johnalexco/gib)
+- 🧼 Sole-developer of [OnlySoap.LIVE](https://onlysoap.live)
+- 💞️ Looking to collaborate on engines, toolkits, games, and web solutions
 - 📫 How to reach me -- me@johnalex.co
 - 🌐 Visit my website, [JohnAlex.CO](https://johnalex.co)
