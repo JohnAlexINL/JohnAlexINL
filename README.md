@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JohnAlexCO
 - 👀 Interested in music, acoustics, logistics, and automation
-- 🕷 Recently released the [weaver](https://johnalex.co/weaver) JavaScript framework 
+- 🕸️ Recently released the [weaver](https://johnalex.co/weaver) JavaScript framework 
 - 🌱 Building a programming language named [Garter](https://github.com/topics/garter)
 - 🧼 Sole-developer of [OnlySoap.LIVE](https://onlysoap.live)
 - 💞️ Looking to collaborate on engines, toolkits, games, and web solutions
