@@ -15,22 +15,12 @@ if [ -e "./generated" ]; then
 fi
 mkdir -p generated
 
-# Compile with gcc
-gcc -o ./generated/gcc "$source_file" -Oz -w #-static
-if [ -e "./generated/gcc" ]; then
-    size=$(stat -c%s "./generated/gcc")
-    size_kb=$(echo "scale=2; $size / 1024" | bc)
-    echo "gcc: compilation successful, output $size_kb kilobytes"
-else
-    echo "gcc: file failed to compile"
-fi
-
 # Compile with clang
 clang -o ./generated/clang "$source_file" -Oz -w #-static
 if [ -e "./generated/clang" ]; then
     size=$(stat -c%s "./generated/clang")
     size_kb=$(echo "scale=2; $size / 1024" | bc)
-    echo "clang: compilation successful, output $size_kb kilobytes"
+    echo "clang: output $size_kb kilobytes"
 else
     echo "clang: file failed to compile"
 fi
@@ -40,9 +30,19 @@ tcc -o ./generated/tcc "$source_file" -w
 if [ -e "./generated/tcc" ]; then
     size=$(stat -c%s "./generated/tcc")
     size_kb=$(echo "scale=2; $size / 1024" | bc)
-    echo "tcc: compilation successful, output $size_kb kilobytes"
+    echo "tcc:   output $size_kb kilobytes"
 else
     echo "tcc: file failed to compile"
+fi
+
+# Compile with gcc
+gcc -o ./generated/gcc "$source_file" -Oz -w #-static
+if [ -e "./generated/gcc" ]; then
+    size=$(stat -c%s "./generated/gcc")
+    size_kb=$(echo "scale=2; $size / 1024" | bc)
+    echo "gcc:   output $size_kb kilobytes"
+else
+    echo "gcc: file failed to compile"
 fi
 
 # Determine output filename
@@ -55,16 +55,28 @@ else
     output_file="${output_file}"
 fi
 
-# Copy the tcc binary to the output file
-if [ -e "./generated/tcc" ]; then
-    cp ./generated/tcc "$output_file"
-    echo "tcc binary copied to $output_file"
+# Remove old binary if one already exists
+if [ -e "$output_file" ]; then 
+    rm -rf $output_file
+fi
+
+# Copy one of the binaries over 
+if [ -e "./generated/clang" ]; then
+    cp ./generated/clang "$output_file"
 else
-    echo "tcc binary not found, trying clang"
-    if [ -e "./generated/clang" ]; then
-      cp ./generated/clang "$output_file"
-      echo "clang binary copied to $output_file"
-    else 
-      echo "clang binary not found"
+    echo "clang binary not found, trying tcc"
+    if [ -e "./generated/tcc" ]; then
+        cp ./generated/tcc "$output_file"
+    else
+        echo "tcc binary not found, trying gcc"
+        if [ -e "./generated/gcc"]; then 
+            cp ./generated/gcc "$output_file"
+        else 
+            echo "compilation failed"
+        fi
     fi
+fi
+if [ -e $output_file ]; then
+    echo 
+    $output_file
 fi
