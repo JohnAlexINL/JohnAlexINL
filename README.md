@@ -6,6 +6,8 @@
 - 🕸️ Created the [weaver](https://modula.dev/weaver) JavaScript mini-library 
 - 💞️ Hoping to one day become a full-time developer
 
+### [nex - a nano inspired hex editor<br>![image](https://github.com/user-attachments/assets/cc9ad839-be45-42a9-b784-3dfea71faaa2)](https://github.com/JohnAlexCO/nex)
+
 ### [cleandown.sh - empty your downloads<br>![image](https://github.com/user-attachments/assets/917efa6e-9a1c-428b-bfd3-a389e5191eec)](./cleandown.sh)
 
 ### [cc - quick compile & run script<br>![image](https://github.com/user-attachments/assets/41b72e81-3cf5-471d-ab4b-26a459a1094d)](./cc)
