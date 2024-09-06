@@ -8,6 +8,8 @@
 
 ### [nex - a nano inspired hex editor<br>![image](https://github.com/user-attachments/assets/cc9ad839-be45-42a9-b784-3dfea71faaa2)](https://github.com/JohnAlexCO/nex)
 
+### [hextime - base-16 clock and C helper functions<br>![image](https://github.com/user-attachments/assets/9ea97d7d-c76a-43ab-ba71-f12561ba8c79)](https://github.com/JohnAlexCO/hextime)
+
 ### [cleandown.sh - empty your downloads<br>![image](https://github.com/user-attachments/assets/917efa6e-9a1c-428b-bfd3-a389e5191eec)](./cleandown.sh)
 
 ### [cc - quick compile & run script<br>![image](https://github.com/user-attachments/assets/41b72e81-3cf5-471d-ab4b-26a459a1094d)](./cc)
