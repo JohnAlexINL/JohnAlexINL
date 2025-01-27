@@ -1,4 +1,4 @@
-- 👋 Hi, I’m [@JohnAlexCO](https://github.com/johnalexco)
+- 👋 Hi, I’m [@JohnAlexINL](https://github.com/johnalexinl)
 - 🌱 Building a programming language named [Garter](https://github.com/topics/garter)
 ([compiler](https://github.com/johnalexco/garter),
 [assembler](https://github.com/johnalexco/gasm),
