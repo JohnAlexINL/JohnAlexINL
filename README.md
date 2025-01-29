@@ -19,6 +19,6 @@
 ### [char - Unicode/ANSI cli helper<br>![image](https://github.com/user-attachments/assets/b56f8dfb-3e1a-493b-a619-5056e5b17d6d)](./char.c)
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=johnalexco&rank_icon=percentile&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=johnalexinl&rank_icon=percentile&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=johnalexco&layout=compact&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=johnalexinl&layout=compact&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
