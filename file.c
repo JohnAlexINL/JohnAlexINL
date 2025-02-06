@@ -1,4 +1,3 @@
-/* REQUIRES: <sys/stat.h> */
 int file_read(char *filename, char *buffer, int max) {
     FILE *fp = fopen(filename, "rb");
     if ( fp == NULL ) { return false; }
@@ -17,6 +16,15 @@ int file_write (char *filename, char *buffer, int max) {
     } fclose(fp); return cursor;
 }
 
+int file_append (char *filename, char *buffer, int max) {
+    FILE *fp = fopen(filename, "a+");
+    if (fp == NULL) { return false; }
+    int cursor; for (cursor = 0; cursor < max && buffer[cursor] != '\0'; cursor++) {
+        if (fputc(buffer[cursor], fp) == EOF) { fclose(fp); return false; }
+    } fclose(fp); return cursor;
+}
+
+/* REQUIRES: <sys/stat.h> */
 bool file_exists (char *filename) { struct stat buffer; return (stat(filename, &buffer) == 0); }
 
 void file_route(char *path) {
