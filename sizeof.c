@@ -5,7 +5,6 @@
 
 #define green  "\e[0;32m"
 #define blue   "\e[0;34m"
-#define yellow "\e[0;33m"
 #define plain  "\e[0m"
 
 const char sizefixes[][16] = {
@@ -36,7 +35,7 @@ char *strsize(unsigned int size) {
 }
 
 #define USAGE "sizeof usage: sizeof <list of files>\n"
-#define LICENSE blue "MIT License, " yellow " (C) " plain " Modula.dev 2025\n"
+#define LICENSE blue "MIT License, " green " (C) " plain " Modula.dev 2025\n"
 int main ( int argc, char ** argv) {
     if ( argc == 1 ) { printf(USAGE); exit(1); }
     if ( argv[1][0] == '-' ) { printf(LICENSE USAGE); exit(0); }
