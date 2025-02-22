@@ -1,24 +1,32 @@
-- 👋 Hi, I’m [@JohnAlexINL](https://github.com/johnalexinl)
-- 🌱 Building a programming language named [Garter](https://github.com/topics/garter)
-([compiler](https://github.com/johnalexco/garter),
-[assembler](https://github.com/johnalexco/gasm),
-[bytecode machine](https://github.com/johnalexco/gyb))
-- 🕸️ Created the [weaver](https://modula.dev/weaver) JavaScript mini-library 
-- 💞️ Hoping to one day become a full-time developer
+👋 Howdy! I'm [@JohnAlexINL](https://github.com/johnalexinl)
+You'll find a bunch of small widgets I've made for myself over the moons,
+as well as links to bigger projects I'm working on here.
 
-### [nex - a nano inspired hex editor<br>![image](https://github.com/user-attachments/assets/cc9ad839-be45-42a9-b784-3dfea71faaa2)](https://github.com/JohnAlexCO/nex)
+❤️ I also run an indie record label! Here's a couple of our artists
+- The Lithiums, ["My Morning After Is Over" (Music Video)](https://www.youtube.com/watch?v=lVe_GrtzLu0)
+- INoLonger, ["Being You" (Music Video)](https://www.youtube.com/watch?v=uNR3PwMQNJs)
+- Shane Something, ["Empty Actions" (Audio)](https://www.youtube.com/watch?v=EWxwVslQsDo)
+- billie arc, ["Better Off" (Audio)](https://www.youtube.com/watch?v=0qItQSExrkg)
 
-### [sloccy - a source-lines cli tool<br>![image](https://github.com/user-attachments/assets/8b3c5b06-5d74-4b6c-bab8-3dc4e4993e84)](https://github.com/JohnAlexCO/sloccy)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=johnalexinl&layout=pie&bg_color=151515&border_color=080808)](https://github.com/anuraghazra/github-readme-stats)
 
-### [hextime - base-16 clock and C helper functions<br>![image](https://github.com/user-attachments/assets/9ea97d7d-c76a-43ab-ba71-f12561ba8c79)](https://github.com/JohnAlexCO/hextime)
+🌱 If you're looking for a dev, I always love an opportunity to do something cool.
+I know C, JavaScript, BASIC, Python, Lua, a few different assemblers, and I'm teaching myself C# too!
 
-### [cleandown.sh - empty your downloads<br>![image](https://github.com/user-attachments/assets/917efa6e-9a1c-428b-bfd3-a389e5191eec)](./cleandown.sh)
+# Main Projects
 
-### [cc - quick compile & run script<br>![image](https://github.com/user-attachments/assets/41b72e81-3cf5-471d-ab4b-26a459a1094d)](./cc)
+| | Project | Brief | Pin |
+|--|--|--|--|
+|🔮| moongin | Game Engine <br> _tbd_ |  |
+|🕸️| weaver | Web Router <br> AGPL3, v0.3.0 | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=modula-dev&repo=weaver&bg_color=151515&border_color=080808)](https://github.com/modula-dev/weaver) |
+|🧩| m | CLI <br> AGPL3, v0.0.1 | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=modula-dev&repo=m&bg_color=151515&border_color=080808)](https://github.com/modula-dev/m) |
+|🐍| garter | Compiler <br> AGPL3 + CLA, _nil_ | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=modula-dev&repo=garter&bg_color=151515&border_color=080808)](https://github.com/modula-dev/garter) |
+|🛠️| gasm | Assembler <br> AGPL3 + CLA, _nil_ | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=modula-dev&repo=gasm&bg_color=151515&border_color=080808)](https://github.com/modula-dev/gasm) |
+|🔗| gyb | Linker <br> AGPL3 + CLA, _nil_ | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=modula-dev&repo=gyb&bg_color=151515&border_color=080808)](https://github.com/modula-dev/gyb) |
 
-### [char - Unicode/ANSI cli helper<br>![image](https://github.com/user-attachments/assets/b56f8dfb-3e1a-493b-a619-5056e5b17d6d)](./char.c)
-
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=johnalexinl&rank_icon=percentile&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=johnalexinl&layout=compact&theme=holi)](https://github.com/anuraghazra/github-readme-stats)
+> [!IMPORTANT]
+> I do not know C++. I do not want to know C++. You cannot pay me a large enough amount of money to learn C++.
+> I have lived my entire life below the poverty line, and yet, if you were to offer me a literal billion dollars to learn C++, 
+> I would decline, because if there is to be any one hill I must die on,
+> one folly that must befell me, a "hot take" I am ok with being my ruin,
+> I want it to be that I am, through-and-through, the biggest hater of C++
