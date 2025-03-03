@@ -25,7 +25,10 @@ int file_append (char *filename, char *buffer, int max) {
 }
 
 /* REQUIRES: <sys/stat.h> */
-bool file_exists (char *filename) { struct stat buffer; return (stat(filename, &buffer) == 0); }
+#ifdef __SYS_STAT_H__
+bool    file_exists (char *filename) { struct stat buffer; return (stat(filename, &buffer) == 0); }
+int     file_size(char *filename) { struct stat buffer; return (stat(filename, &buffer) == 0) ? buffer.st_size : -1; }
+#endif
 
 void file_route(char *path) {
     #ifdef _WIN_32

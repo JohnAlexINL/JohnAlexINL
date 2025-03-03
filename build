@@ -1,0 +1,6 @@
+mkdir -p tmp
+tcc -o ./tmp/bytes ./src/bytes.c
+tcc -o ./tmp/sizeof ./src/sizeof.c
+tcc -o ./tmp/todo ./src/todo.c
+mv ./tmp/* ~/.local/bin
+rm -rf ./tmp
