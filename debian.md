@@ -73,21 +73,7 @@ flatpak install flathub com.valvesoftware.Steam
 
 ## Setting up useful shortcuts
 
-At this point, I like to set some hotkeys,
-but I wanna do it in a way that's gonna be easy
-to modify stuff, so.
-In `~/.local/bin`, make a couple files
-starting with the `#!/usr/bin/sh` shebang,
-then on a newline the actual program to bind
-and save it.
-For example, I might have the file `terminal`
-containing 
-```sh
-#!/usr/bin/sh
-tilix
-```
-
-Then, go into the settings widget, scroll down to Keyboard,
+Go into the settings widget, scroll down to Keyboard,
 and at the very bottom click `View and Customize Shortcuts`.
 In `Custom Shortcuts`, add the shortcut (ex. `Super + T`)
 and bind it to the file you made before.
