@@ -27,7 +27,7 @@ typedef struct {
 } counter_t;
 
 const char *check_markers[] = { "- [x]", "[x]", "|x|", "🎉", "✅", "✓", "🗹", "❖", "|🎉|","|✅|", "|✓|", "|🗹|", "|❖|" };
-const char *todo_markers[] = { "- []", "- [ ]", "- [_]", "✗", "✘", "❌", "❎", "⮽", "|✗|", "|✘|", "|❌|", "|❎|", "|⮽|", "TODO", "> [!TODO" };
+const char *todo_markers[] = { "- []", "- [ ]", "|_|", "- [_]", "✗", "✘", "❌", "❎", "⮽", "|✗|", "|✘|", "|❌|", "|❎|", "|⮽|", "TODO", "> [!TODO" };
 
 #define CHECK_MARKERS (sizeof(check_markers) / sizeof(check_markers[0]))
 #define TODO_MARKERS  (sizeof(todo_markers) / sizeof(todo_markers[0]))
