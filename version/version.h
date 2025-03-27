@@ -1,0 +1,1 @@
+#define strings_version "0.0.0"
