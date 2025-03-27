@@ -12,7 +12,7 @@
 const char gitperm[] = "chmod +x " script_path;
 const char gitscript[] = "#!/bin/bash\nmversion commit\n";
 const char gitadd[] = "git add -f " version_path;
-const char gitlink[] = "ln -s $(realpath --relative-to=$(dirname %s) "version_path ") %s";
+const char gitlink[] = "ln -s $(realpath --relative-to=$(dirname %s) " version_path ") %s";
 
 const char strings_help[] = "mversion helps manage the version-number string\n\
 run \"mversion init\" in a git repository to set up the git hook\n\

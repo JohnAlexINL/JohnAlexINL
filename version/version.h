@@ -1,1 +1,1 @@
-../.git/version.h
+../.version
