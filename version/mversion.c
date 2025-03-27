@@ -8,6 +8,7 @@
 #include "../src/file.c"
 
 #define version_path ".git/version.h"
+const char gitperm[] = "chmod +x " version_path;
 const char gitscript[] = "#!/bin/bash\nmversion commit\n";
 const char scriptpath[] = ".git/hooks/post-commit";
 const char gitadd[] = "git add -f " version_path;
@@ -76,7 +77,8 @@ int main(int argc, char **argv) {
         if (!file_exists(".git")) { fprintf(stderr, "cwd is not a git repository\n"); exit(1); }
         int w = file_write((char*)scriptpath, (char*)gitscript, sizeof(gitscript));
         if ( w <= 0 ) { fprintf(stderr, "unable to write to %s\n", scriptpath); exit(1); }
-        printf("Initialized version as 0.0.0\n");
+        system(gitperm);
+        if ( file_exists(version_path) ) { printf("Warning: `version.h` already exists, overwriting\n"); } else { printf("Initialized version as 0.0.0\n"); }
         writeVersion(version_numbers);
     }
     else if ( strcmp(argv[1], "set")==0) {
