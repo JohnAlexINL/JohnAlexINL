@@ -51,7 +51,6 @@ int writeVersion() {
 void updateVersion(char *commit) {
     int index = 2; // minor by default
     int i; for (i=0;i<3;i++) { if (strncmp(commit, TAGS[i], 5)==0) { index = i; break; } }
-    printf( TAGS[i] );
     vnums[i] = vnums[i] + 1;
 }
 
