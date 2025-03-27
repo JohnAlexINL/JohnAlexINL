@@ -50,7 +50,8 @@ int writeVersion(uint32_t *nums) {
 void updateVersion(uint32_t *nums, char *commit) {
     int index = 2; // minor by default
     int i; for (i=0;i<3;i++) { if (strncmp(commit, TAGS[i], 5)==0) { index = i; break; } }
-    nums[i] ++;
+    printf( TAGS[i] );
+    nums[i] = nums[i] + 1;
 }
 
 char *commit_message() {
