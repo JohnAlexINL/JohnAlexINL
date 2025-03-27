@@ -89,11 +89,7 @@ int main(int argc, char **argv) {
     }
     else if ( strcmp(argv[1], "commit")==0 ) {
         if (!file_exists(".git")) { fprintf(stderr, "cwd is not a git repository\n"); exit(1); }
-        if (!file_exists("version.h")) {
-            printf("No version information found.\n");
-            initVersion(version_numbers);
-            writeVersion(version_numbers);
-        }
+        if (!file_exists(version_path)) { fprintf(stderr, "Version information missing, please run `mversion set`\n"); exit(1); }
         else {
             getVersion(version_numbers);
             if ( version_numbers[0] == -1 ) {
