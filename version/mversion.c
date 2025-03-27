@@ -7,7 +7,7 @@
 #include "../src/file.c"
 #include "version.h"
 
-#define version_path ".git/version.h"
+#define version_path ".version"
 #define script_path ".git/hooks/post-commit"
 const char gitperm[] = "chmod +x " script_path;
 const char gitscript[] = "#!/bin/bash\nmversion commit\n";
