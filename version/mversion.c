@@ -80,6 +80,7 @@ int main(int argc, char **argv) {
         int s = system(gitperm); if ( s != 0 ) { fprintf(stderr, "Unable to set write permissions for " script_path "\n"); exit(1); }
         if ( file_exists(version_path) ) { printf("Warning: `version.h` already exists, overwriting\n"); } else { printf("Initialized version as 0.0.0\n"); }
         writeVersion();
+        int a = system(gitadd);  if ( a != 0 ) { fprintf(stderr, "Unable to git add " version_path "\n"); exit(1); }
     }
     else if ( strcmp(argv[1], "set")==0) {
         if (!file_exists(".git")) { fprintf(stderr, "cwd is not a git repository\n"); exit(1); }
