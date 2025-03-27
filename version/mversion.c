@@ -98,10 +98,11 @@ int main(int argc, char **argv) {
                 writeVersion(version_numbers);
             }
             char *message = commit_message();
+            printf("... updating version %d.%d.%d -> ", version_numbers[0], version_numbers[1], version_numbers[2]);
             updateVersion(version_numbers, message);
+            printf("%d.%d.%d\n", version_numbers[0], version_numbers[1], version_numbers[2]);
             writeVersion(version_numbers);
         }
-        printf("... Updating " version_path );
     }
     else if ( argv[1][0] == '-' ) {
         char tag = argv[1][1]; if ( tag == '-' ) { tag = argv[1][2]; }
