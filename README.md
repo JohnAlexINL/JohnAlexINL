@@ -3,7 +3,7 @@ You'll find a bunch of small widgets I've made for myself over the moons,
 as well as links to bigger projects I'm working on here.
 
 ❤️ I also run an indie record label! Here's a couple of our artists
-- The Lithiums, ["Future If Future" (Music Video)](https://www.youtube.com/watch?v=0qItQSExrkg)
+- The Lithiums, ["Future If Future" (Music Video)](https://www.youtube.com/watch?v=D_K7zt8DsIo)
 - INoLonger, ["Being You" (Music Video)](https://www.youtube.com/watch?v=uNR3PwMQNJs)
 - Shane Something, ["Empty Actions" (Audio)](https://www.youtube.com/watch?v=EWxwVslQsDo)
 - billie arc, ["Better Off" (Audio)](https://www.youtube.com/watch?v=0qItQSExrkg)
