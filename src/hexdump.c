@@ -31,7 +31,7 @@ int main (int argc, char **argv) {
     // Heading
     printf(GREEN "         1  2  3  4  5  6  7  8  9  A  B  C  D  E  F     10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F\n");
     
-    int i=0; for(i=0;i<size;i++) {
+    int i=0; for(i=0;i<size-1;i++) {
             // NONCHAR
         if          ( buffer[i] == 0 || buffer[i] >= 127 ) { printf(RED); }
             // TTY
