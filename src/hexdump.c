@@ -32,6 +32,7 @@ int main (int argc, char **argv) {
     printf(GREEN "         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F     10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F\n");
     
     int i=0; for(i=0;i<size-1;i++) {
+        if ( i % 32 == 0 ) { printf(GREEN "%04x\t", i);  }
             // NONCHAR
         if          ( buffer[i] == 0 || buffer[i] >= 127 ) { printf(RED); }
             // TTY
@@ -42,12 +43,9 @@ int main (int argc, char **argv) {
         else if     ( buffer[i] >= 123 ) { printf(GREEN); }
             // OTHER CHARACTERS
         else { printf(WHITE); }
-
-        if ( i % 32 == 0 ) { printf(GREEN "%04x\t", i);  }
+        printf("%02x ", buffer[i] & 255);
         if ( i % 32 == 31 ) { printf("\n"); }
         else if ( i % 32 == 16 ) { printf("    "); }
-
-        printf("%02x ", buffer[i] & 255);
 
     }   if ( i % 32 != 31 ) { printf("\n"); }
 }
