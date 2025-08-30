@@ -29,7 +29,7 @@ int main (int argc, char **argv) {
     int read = file_read(filename, buffer, size); if ( read <= 0 ) { printf("Failed to read file %s\n", filename); exit(1); }
     
     // Heading
-    printf(GREEN "         1  2  3  4  5  6  7  8  9  A  B  C  D  E  F     10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F\n");
+    printf(GREEN "         0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F     10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F\n");
     
     int i=0; for(i=0;i<size-1;i++) {
             // NONCHAR
@@ -45,7 +45,7 @@ int main (int argc, char **argv) {
 
         if ( i % 32 == 0 ) { printf(GREEN "%04x\t", i);  }
         if ( i % 32 == 31 ) { printf("\n"); }
-        else if ( i % 16 == 15) { printf("    "); }
+        else if ( i % 32 == 16 ) { printf("    "); }
 
         printf("%02x ", buffer[i]);
 
