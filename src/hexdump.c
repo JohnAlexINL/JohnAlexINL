@@ -47,7 +47,7 @@ int main (int argc, char **argv) {
         if ( i % 32 == 31 ) { printf("\n"); }
         else if ( i % 32 == 16 ) { printf("    "); }
 
-        printf("%02x ", buffer[i]);
+        printf("%02x ", buffer[i] & 255);
 
     }   if ( i % 32 != 31 ) { printf("\n"); }
 }
