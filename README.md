@@ -2,13 +2,20 @@
 You'll find a bunch of small widgets I've made for myself over the moons,
 as well as links to bigger projects I'm working on here.
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?perline=6&i=c,git,github,vscode,windows,linux,apple,bash,androidstudio,html,css,js,nodejs,lua,python,cs,regex,bots" />
+  </a><br>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=johnalexinl&layout=pie&bg_color=151515&border_color=080808">
+  </a><br>
+</p>
+
 ❤️ I also run an indie record label! Here's a couple of our artists
 - The Lithiums, ["Future If Future" (Music Video)](https://www.youtube.com/watch?v=D_K7zt8DsIo)
 - INoLonger, ["Being You" (Music Video)](https://www.youtube.com/watch?v=uNR3PwMQNJs)
 - Shane Something, ["Empty Actions" (Audio)](https://www.youtube.com/watch?v=EWxwVslQsDo)
 - billie arc, ["Better Off" (Audio)](https://www.youtube.com/watch?v=0qItQSExrkg)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=johnalexinl&layout=pie&bg_color=151515&border_color=080808)](https://github.com/anuraghazra/github-readme-stats)
 
 🌱 If you're looking for a dev, I always love an opportunity to do something cool.
 I know C, JavaScript, BASIC, Python, Lua, a few different assemblers, and I'm teaching myself C# too!
