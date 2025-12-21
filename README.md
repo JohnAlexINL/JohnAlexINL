@@ -1,4 +1,4 @@
-👋 Howdy! I'm [@JohnAlexINL](https://github.com/johnalexinl)
+👋 Howdy! I'm [@JohnAlexINL](https://github.com/johnalexinl)[/](https://github.com/johnalexinl/johnalexinl)
 You'll find a bunch of small widgets I've made for myself over the moons,
 as well as links to bigger projects I'm working on here.
 
