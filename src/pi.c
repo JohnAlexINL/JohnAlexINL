@@ -25,6 +25,7 @@ int main (int argc, char **argv)
 {
 	int n; integer TOP = 22; integer BOTTOM = 7; double error = Qabs( (double)(22)/7 - piPre );
 	for(n=START;n<DEPTH;n++) {
+		printf("\r    ... testing %lu", n); fflush(stdout);
 		integer test = n*n;
 		integer numerator = pi(test)*4;
 		double result = (double)(numerator) / (test*test);
@@ -37,7 +38,7 @@ int main (int argc, char **argv)
 			error = localError;
 		// Reduce our fractions
 			reduce(&TOP, &BOTTOM);
-			printf("    %-12lusq => %f, ~ %lu / %lu \n", test, result, TOP, BOTTOM);
+			printf("\r    %-12lusq => %f, ~ %lu / %lu \n", test, result, TOP, BOTTOM);
 		}
 	}
 	printf("Best match:\n    %f (%lu/%lu)\n",
