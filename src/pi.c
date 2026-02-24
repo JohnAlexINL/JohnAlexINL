@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DEPTH 128
+#define START 128
+#define DEPTH 256
 
 typedef unsigned long long integer;
 typedef _Bool bool;
@@ -23,7 +24,7 @@ integer reduce(integer *x, integer *y);
 int main (int argc, char **argv)
 {
 	int n; integer TOP = 22; integer BOTTOM = 7; double error = Qabs( (double)(22)/7 - piPre );
-	for(n=4;n<DEPTH;n++) {
+	for(n=START;n<DEPTH;n++) {
 		integer test = n*n;
 		integer numerator = pi(test)*4;
 		double result = (double)(numerator) / (test*test);
